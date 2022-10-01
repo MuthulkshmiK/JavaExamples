@@ -1,0 +1,23 @@
+import java.io.*;
+import java.lang.*;
+ 
+class StringExample 
+{
+    public static void main(String[] args)
+    {
+        // Declare String without using new operator
+        String s = "GeeksforGeeks";
+ 
+        // Prints the String.
+        System.out.println("String s = " + s);
+ 
+        // Declare String using new operator
+        String s1 = new String("GeeksforGeeks");
+        
+        s1="Geeks2";
+ 
+        // Prints the String.
+        System.out.println("String s1 = " + s1);
+        
+    }
+}
